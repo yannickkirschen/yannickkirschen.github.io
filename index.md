@@ -1,4 +1,5 @@
 ---
+title: Yannick Kirschen
 layout: index
 ---
 
