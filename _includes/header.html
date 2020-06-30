@@ -1,0 +1,36 @@
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/">{{ site.title }}</a>
+
+            <button aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation"
+                    class="navbar-toggler"
+                    data-target="#navbarSupportedContent" data-toggle="collapse"
+                    type="button">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    {% assign paths = site.pages | map: "path" %}
+
+                    {% for path in paths %}
+                    {% assign p = site.pages | where: "path", path | first %}
+
+                    {% if p.title %}
+
+                    {% assign url = p.url %}
+                    {% assign title = p.title %}
+
+                    <li class="nav-item">
+                        <a class="nav-link {% if page.title == title %}active{% endif %}"
+                           href="{{ url }}">{{ title}}</a>
+                    </li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>

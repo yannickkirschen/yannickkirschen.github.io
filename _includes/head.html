@@ -1,0 +1,14 @@
+<head>
+    <title>
+        {% if page.title %}
+        {{ page.title }}
+        {% else %}
+        Yannick Kirschen
+        {% endif %}
+    </title>
+
+    <link
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        rel="stylesheet">
+    <link rel="stylesheet" href="{{ "/assets/style.css" | relative_url }}">
+</head>

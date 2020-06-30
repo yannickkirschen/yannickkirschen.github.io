@@ -1,0 +1,17 @@
+title: Yannick Kirschen
+description: >-
+    My personal homepage. I know it's lame. Just had too much free time.
+github:  yannickkirschen
+
+collections:
+    programming:
+        output: true
+
+plugins:
+    - jekyll-feed
+
+sass:
+    style: compressed
+
+image:
+    url: https://avatars0.githubusercontent.com/u/27555431?s=460&u=a26559e0a1b1728504f8b9d13388638ac24dc8ac&v=4

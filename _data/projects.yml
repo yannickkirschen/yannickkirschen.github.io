@@ -1,0 +1,54 @@
+-   name: Chess
+    link: https://github.com/yannickkirschen/chess
+    tags:
+        - java
+        - game
+        - school-project
+    description: >-
+        *Chess* is a two-player chess game written in Java. Once you've started
+        the game, you see a chessboard on the screen. Player one is at the
+        bottom, player two at the top. Yu navigate via the keyboard, e.g. `A2 A4`.
+
+-   name: ConsoleArena
+    link: https://github.com/yannickkirschen/console-arena
+    tags:
+        - java
+        - game
+        - school-project
+    description: >-
+        *ConsoleArena* is a free and open-source fighting game for the terminal
+        written in Java. The style of play is similar to that of a quartet. The
+        game allows you to fight against the computer. In each fight you can
+        choose how to attack the computer. The computer than reacts to your
+        attack randomly. When each player has enogh health, the computer now
+        chooses a random attack and you have to decide how to defend. The game
+        is finished when one of the players has no more health.
+-   name: Task
+    link: https://github.com/yannickkirschen/task
+    tags:
+        - python
+        - planner
+    description: >-
+        *Task* is a task planning tool for the command line. By using a simple
+        syntax, it allows you to keep track of all you to-do's, e.g. add a task:
+        `python -m task add "<name>" priority <priority>`.
+-   name: Flappy Astronaut
+    link: https://github.com/yannickkirschen/FlappyAstronaut
+    tags:
+        - python
+        - game
+        - raspberry-pi
+    description: >-
+        *Flappy Astronaut* is a python game for the Raspberry Pi and the
+        SenseHAT. It is a slightly modified version of the program online in a
+        blog (see README for details). Put the SenseHAT onto your Pi and use the
+        joystick to control the astronaut. It's just like Flappy Bird!
+-   name: Flask JWT Next
+    link: https://github.com/yannickkirschen/flask-jwt-next
+    tags:
+        - python
+        - jwt
+        - web
+    description: >-
+        *Flask JWT Next* adds support for JSON Web Tokens to your Flask
+        application.
