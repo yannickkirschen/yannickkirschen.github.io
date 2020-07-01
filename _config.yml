@@ -9,6 +9,7 @@ collections:
 
 plugins:
     - jekyll-feed
+    - jemoji
 
 sass:
     style: compressed
