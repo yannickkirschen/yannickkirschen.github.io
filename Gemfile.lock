@@ -63,7 +63,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (~> 4.1.1)
+  jekyll
   jekyll-feed (~> 0.12)
 
 BUNDLED WITH
