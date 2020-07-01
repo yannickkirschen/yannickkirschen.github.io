@@ -4,19 +4,4 @@ layout: index
 
 ### About me
 
-```yaml
-age: 21
-profession: Apprentice for application development
-location: 50,5633 N  6,5732 E
-hobbies:
-    - programming
-    - photography
-    - reading books
-    - watching movies
-    - mother nature!
-love:
-    - Java
-    - Python
-    - Docker
-    - Linux
-```
+<script src="https://gist.github.com/yannickkirschen/2d7afff570f18b5f7920e2665ad3f57d.js"></script>
