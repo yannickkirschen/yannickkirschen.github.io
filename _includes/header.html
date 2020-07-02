@@ -23,10 +23,12 @@
                     {% assign url = p.url %}
                     {% assign title = p.title %}
 
+                    {% if p.hidden != true %}
                     <li class="nav-item">
                         <a class="nav-link {% if page.title == title %}active{% endif %}"
                            href="{{ url }}">{{ title}}</a>
                     </li>
+                    {% endif %}
                     {% endif %}
                     {% endfor %}
                 </ul>
