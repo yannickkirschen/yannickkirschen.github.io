@@ -5,8 +5,8 @@
         - argparse
         - tool
     description: >-
-        `cli-args` is a Python library for an easier parsing of command line arguments.
-        It wraps the popular [argparse](https://github.com/ThomasWaldmann/argparse) to
+        *cli-args* is a Python library for an easier parsing of command line arguments.
+        It wraps the popular *argparse* to
         allow importing parsed arguments from anywhere in the code. One of the key
         features is the way you define what arguments you accept. By providing a
         dictionary - that also can be read from a JSON file! - you can easily set all
